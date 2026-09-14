@@ -1,0 +1,13 @@
+{
+  "name": "github-achievements-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Laboratório pessoal de Git, TypeScript e CI/CD",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2"
+  }
+}
