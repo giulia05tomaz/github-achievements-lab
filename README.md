@@ -23,4 +23,6 @@ npm ci
 npx tsc --version
 ```
 
-`npm ci` instala as versões registradas no arquivo `package-lock.json`. O último comando confirma a instalação do compilador. A implementação e seus scripts serão adicionados no próximo exercício.
+`npm ci` instala as versões registradas no arquivo `package-lock.json`. O último comando confirma a instalação do compilador.
+
+Execute o exemplo com `npm start` e valide o projeto com `npm test`.
