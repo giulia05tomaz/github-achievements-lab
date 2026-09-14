@@ -4,6 +4,11 @@
   "private": true,
   "description": "Laboratório pessoal de Git, TypeScript e CI/CD",
   "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/example.js",
+    "test": "npm run build && node --test test/*.test.mjs"
+  },
   "engines": {
     "node": ">=22"
   },
